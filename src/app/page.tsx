@@ -1,8 +1,10 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { Shield, Calculator, Sparkles, Trophy, Key, Hammer, BookOpen, Copy, Check, ArrowRight, Zap, Flame, Crown } from 'lucide-react';
+import AuthorCard from '@/components/AuthorCard';
 import { GAME_INFO, ACTIVE_CODES, UNITS, TIER_LIST, FAQ_ITEMS } from '@/data/wikiData';
 
 export default function HomePage() {
@@ -67,6 +69,31 @@ export default function HomePage() {
 
   return (
     <div className="space-y-16 py-8 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      {/* FAQPage JSON-LD Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            dateModified: '2026-09-15',
+            author: {
+              '@type': 'Person',
+              name: 'Ren "Monarch" Kurogane',
+              jobTitle: 'Lead Tower Defense Meta Analyst & Evolution Strategist',
+            },
+            mainEntity: FAQ_ITEMS.map((faq) => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+              },
+            })),
+          }),
+        }}
+      />
+
       {/* Hero Section */}
       <section className="relative overflow-hidden pt-12 pb-16 text-center space-y-8">
         <div className="absolute inset-0 -z-10 flex items-center justify-center">
@@ -118,6 +145,39 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      {/* AuthorCard Section */}
+      <AuthorCard />
+
+      {/* Visual Showcase */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6 font-mono">
+        <div className="rounded-2xl overflow-hidden border border-red-900/40 bg-[#080d19] p-4 flex flex-col items-center">
+          <Image
+            src="/images/anime-vanguards-hero.webp"
+            alt="Anime Vanguards Official Tower Defense Arena"
+            width={640}
+            height={360}
+            className="rounded-xl object-cover w-full h-52 border border-red-950"
+            priority
+          />
+          <p className="text-xs text-gray-400 mt-2 text-center">
+            Figure 1: Official Anime Vanguards Arena — Tactical deployment lanes and wave spawns.
+          </p>
+        </div>
+
+        <div className="rounded-2xl overflow-hidden border border-red-900/40 bg-[#080d19] p-4 flex flex-col items-center">
+          <Image
+            src="/images/anime-vanguards-icon.webp"
+            alt="Anime Vanguards Game Icon and Mythic Summon Banner"
+            width={640}
+            height={360}
+            className="rounded-xl object-contain w-full h-52 bg-black/50 border border-red-950"
+          />
+          <p className="text-xs text-gray-400 mt-2 text-center">
+            Figure 2: Official Anime Vanguards Emblem — Mythic banner icon & trait indicators.
+          </p>
+        </div>
+      </div>
 
       {/* Feature Cards Grid */}
       <section className="space-y-6">
