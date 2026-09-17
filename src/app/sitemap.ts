@@ -5,7 +5,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const routes = [
     '',
-    '/unit-calculator',
+    '/calculator',
     '/trait-simulator',
     '/tier-list',
     '/codes',
@@ -16,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
-    changeFrequency: route === '/codes' || route === '/unit-calculator' ? 'daily' : 'weekly',
+    changeFrequency: route === '/codes' || route === '/calculator' ? 'daily' : 'weekly',
     priority: route === '' ? 1.0 : 0.8
   }));
 }

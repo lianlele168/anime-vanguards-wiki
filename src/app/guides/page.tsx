@@ -1,4 +1,14 @@
-'use client';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Roblox Anime Vanguards Beginner & Infinite Mode Guides (September 2026)',
+  description: 'Complete gameplay guide for Anime Vanguards: Early game cash generation, elemental boss counters, positioning choke points, and wave 80+ Infinite strategies.',
+  alternates: {
+    canonical: '/guides',
+  },
+  keywords: ['anime vanguards guide', 'anime vanguards infinite mode strategy', 'anime vanguards paragon raid tips'],
+};
+
 
 import React from 'react';
 import Image from 'next/image';

@@ -1,6 +1,16 @@
-'use client';
+import type { Metadata } from 'next';
 
-import React, { useState } from 'react';
+export const metadata: Metadata = {
+  title: 'Anime Vanguards Unit Tier List & Meta Rankings (September 2026)',
+  description: 'Official Anime Vanguards unit tier list. Discover top meta DPS, debuffers, and hybrid support units evaluated across Infinite Mode and Paragon Raids.',
+  alternates: {
+    canonical: '/tier-list',
+  },
+  keywords: ['anime vanguards tier list', 'best units anime vanguards', 'song jinwu tier', 'anime vanguards meta units'],
+};
+
+
+import React from 'react';
 import { Trophy, Shield, Flame, Sparkles } from 'lucide-react';
 import { TIER_LIST } from '@/data/wikiData';
 
