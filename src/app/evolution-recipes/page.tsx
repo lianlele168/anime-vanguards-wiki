@@ -4,7 +4,7 @@ import EvolutionRecipesClient from './EvolutionRecipesClient';
 import { EVOLUTION_RECIPES } from '@/data/wikiData';
 
 export const metadata: Metadata = {
-  title: 'Anime Vanguards Evolution Recipes & Material Guide (September 2026)',
+  title: 'Anime Vanguards Evolution Recipes & Material Guide ',
   description: 'Complete evolution recipes for all Mythic and Secret units in Anime Vanguards. Required essences, rainbow gems, and stage drop locations.',
   alternates: {
     canonical: '/evolution-recipes',

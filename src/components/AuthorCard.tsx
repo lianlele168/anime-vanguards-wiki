@@ -14,7 +14,7 @@ export default function AuthorCard({
   role = 'Lead Tower Defense Meta Analyst & Evolution Strategist',
   experience = '450+ Hours In-Game • Infinite Mode Wave 120+',
   patchVersion = 'Update 3.5 Autumn Patch Verified',
-  lastUpdated = 'September 2026',
+  lastUpdated = '',
   editorialNote = 'All DPS per Yen ratios, monarch trait reroll percentages, and evolution essence drop mechanics are calculated from verified endgame test runs.',
 }: AuthorCardProps) {
   return (
@@ -41,9 +41,7 @@ export default function AuthorCard({
           <span className="inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-medium bg-amber-500/10 text-amber-300 border border-amber-500/20">
             ⚡ {patchVersion}
           </span>
-          <span className="text-xs text-gray-400">
-            Updated: <strong className="text-gray-200">{lastUpdated}</strong>
-          </span>
+          
         </div>
       </div>
 

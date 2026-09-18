@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import TraitSimulatorClient from './TraitSimulatorClient';
 
 export const metadata: Metadata = {
-  title: 'Roblox Anime Vanguards Trait Reroll Simulator (September 2026)',
+  title: 'Roblox Anime Vanguards Trait Reroll Simulator ',
   description: 'Simulate rolling Monarch, Godly, Solar, and Blitz traits in Anime Vanguards. Track trait reroll tokens spent and test rolling odds.',
   alternates: {
     canonical: '/trait-simulator',

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import CalculatorClient from './CalculatorClient';
 
 export const metadata: Metadata = {
-  title: 'Roblox Anime Vanguards Unit DPS Calculator (September 2026) | Roblox',
+  title: 'Roblox Anime Vanguards Unit DPS Calculator | Roblox',
   description: 'Interactive DPS calculator for Roblox Anime Vanguards. Calculate level 1-100 damage scaling, trait multipliers (Monarch, Godly), and evolution DPS curves.',
   alternates: {
     canonical: '/calculator',

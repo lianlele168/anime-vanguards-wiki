@@ -73,25 +73,25 @@ export const ACTIVE_CODES: CodeItem[] = [
     code: "AV100MVISITS",
     rewards: "2,500 Gems, 10 Trait Rerolls, 2x Super Lucky Potions",
     status: "active",
-    addedDate: "2026-08-20"
+    addedDate: ""
   },
   {
     code: "UPDATE14",
     rewards: "1,500 Gems, 5 Trait Rerolls, 2,000 Gold",
     status: "active",
-    addedDate: "2026-08-18"
+    addedDate: ""
   },
   {
     code: "MONARCH",
     rewards: "1,000 Gems, 3 Stat Chips",
     status: "active",
-    addedDate: "2026-08-15"
+    addedDate: ""
   },
   {
     code: "RELEASE",
     rewards: "500 Gems, 1,000 Gold Starter Pack",
     status: "active",
-    addedDate: "2026-08-10"
+    addedDate: ""
   }
 ];
 
@@ -100,7 +100,7 @@ export const EXPIRED_CODES: CodeItem[] = [
     code: "BETA_TEST_2025",
     rewards: "300 Gems",
     status: "expired",
-    addedDate: "2025-11-01"
+    addedDate: ""
   }
 ];
 

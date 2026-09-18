@@ -76,7 +76,7 @@ export default function HomeClient() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            dateModified: '2026-09-15',
+
             author: {
               '@type': 'Person',
               name: 'Ren "Monarch" Kurogane',

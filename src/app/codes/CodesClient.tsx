@@ -22,7 +22,7 @@ export default function CodesClient() {
           <span>DAILY VERIFIED REDEEM CODES</span>
         </div>
         <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tight font-mono">
-          Roblox Anime Vanguards Codes (September 2026)
+          Roblox Anime Vanguards Codes 
         </h1>
         <p className="text-gray-400 text-sm mt-1">
           Claim free Gems, Trait Rerolls, Super Lucky Potions, and Stat Chips. Tested daily by our community team.

@@ -3,8 +3,8 @@ import type { Metadata } from 'next';
 import CodesClient from './CodesClient';
 
 export const metadata: Metadata = {
-  title: 'Roblox Anime Vanguards Codes (September 2026) - Free Gems & Rerolls',
-  description: 'Full list of active Roblox Anime Vanguards codes for September 2026. Redeem free Trait Rerolls, Rainbow Gems, and Super Stat Chips.',
+  title: 'Roblox Anime Vanguards Codes - Free Gems & Rerolls',
+  description: 'Full list of active Roblox Anime Vanguards codes for . Redeem free Trait Rerolls, Rainbow Gems, and Super Stat Chips.',
   alternates: {
     canonical: '/codes',
   },

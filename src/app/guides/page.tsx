@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Roblox Anime Vanguards Beginner & Infinite Mode Guides (September 2026)',
+  title: 'Roblox Anime Vanguards Beginner & Infinite Mode Guides ',
   description: 'Complete gameplay guide for Anime Vanguards: Early game cash generation, elemental boss counters, positioning choke points, and wave 80+ Infinite strategies.',
   alternates: {
     canonical: '/guides',
@@ -46,7 +46,7 @@ export default function GuidesPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            dateModified: '2026-09-15',
+
             author: {
               '@type': 'Person',
               name: 'Ren "Monarch" Kurogane',

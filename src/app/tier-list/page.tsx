@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Anime Vanguards Unit Tier List & Meta Rankings (September 2026)',
+  title: 'Anime Vanguards Unit Tier List & Meta Rankings ',
   description: 'Official Anime Vanguards unit tier list. Discover top meta DPS, debuffers, and hybrid support units evaluated across Infinite Mode and Paragon Raids.',
   alternates: {
     canonical: '/tier-list',
