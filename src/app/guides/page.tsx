@@ -49,8 +49,8 @@ export default function GuidesPage() {
 
             author: {
               '@type': 'Person',
-              name: 'Ren "Monarch" Kurogane',
-              jobTitle: 'Lead Tower Defense Meta Analyst & Evolution Strategist',
+              name: 'Hlele',
+              jobTitle: 'Editor',
             },
             mainEntity: GUIDE_FAQS.map((faq) => ({
               '@type': 'Question',

@@ -77,8 +77,8 @@ export default function CalculatorClient() {
 
             author: {
               '@type': 'Person',
-              name: 'Ren "Monarch" Kurogane',
-              jobTitle: 'Lead Tower Defense Meta Analyst & Evolution Strategist',
+              name: 'Hlele',
+              jobTitle: 'Editor',
             },
             mainEntity: CALCULATOR_FAQS.map((faq) => ({
               '@type': 'Question',

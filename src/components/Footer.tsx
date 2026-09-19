@@ -52,6 +52,9 @@ export default function Footer() {
           <span>Crafted with</span> <Heart className="w-3 h-3 text-purple-500 fill-purple-500" /> <span>for Anime Gamers</span>
         </p>
       </div>
+      <div className="max-w-7xl mx-auto mt-4 text-center text-[11px] text-gray-500">
+        Content AI-assisted, human-reviewed · Data sources cited on page · Contact: lianlele168@gmail
+      </div>
     </footer>
   );
 }

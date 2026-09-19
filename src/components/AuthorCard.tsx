@@ -10,12 +10,12 @@ interface AuthorCardProps {
 }
 
 export default function AuthorCard({
-  authorName = 'Ren "Monarch" Kurogane',
-  role = 'Lead Tower Defense Meta Analyst & Evolution Strategist',
-  experience = '450+ Hours In-Game • Infinite Mode Wave 120+',
+  authorName = 'Hlele',
+  role = 'Editor',
+  experience = 'AI-assisted research, human-reviewed',
   patchVersion = 'Update 3.5 Autumn Patch Verified',
   lastUpdated = '',
-  editorialNote = 'All DPS per Yen ratios, monarch trait reroll percentages, and evolution essence drop mechanics are calculated from verified endgame test runs.',
+  editorialNote = 'All data is cross-verified from multiple sources; unverified values are explicitly labeled.',
 }: AuthorCardProps) {
   return (
     <div className="w-full rounded-2xl bg-[#0b0c16]/90 border border-red-500/20 p-4 sm:p-5 backdrop-blur-md my-6 shadow-xl font-sans">

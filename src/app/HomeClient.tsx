@@ -79,8 +79,8 @@ export default function HomeClient() {
 
             author: {
               '@type': 'Person',
-              name: 'Ren "Monarch" Kurogane',
-              jobTitle: 'Lead Tower Defense Meta Analyst & Evolution Strategist',
+              name: 'Hlele',
+              jobTitle: 'Editor',
             },
             mainEntity: FAQ_ITEMS.map((faq) => ({
               '@type': 'Question',
