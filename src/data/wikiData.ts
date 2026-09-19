@@ -70,38 +70,36 @@ export const GAME_INFO = {
 
 export const ACTIVE_CODES: CodeItem[] = [
   {
-    code: "AV100MVISITS",
-    rewards: "2,500 Gems, 10 Trait Rerolls, 2x Super Lucky Potions",
+    code: "Assault",
+    rewards: "100 Trait Rerolls (requires Level 10)",
     status: "active",
     addedDate: ""
   },
   {
-    code: "UPDATE14",
-    rewards: "1,500 Gems, 5 Trait Rerolls, 2,000 Gold",
+    code: "SummerLeaving",
+    rewards: "100 Memoria Shards (requires Level 10; one outlet reports it no longer pays out — test in game)",
     status: "active",
     addedDate: ""
   },
   {
-    code: "MONARCH",
-    rewards: "1,000 Gems, 3 Stat Chips",
-    status: "active",
-    addedDate: ""
-  },
-  {
-    code: "RELEASE",
-    rewards: "500 Gems, 1,000 Gold Starter Pack",
+    code: "AnniNextHopefully",
+    rewards: "100 Trait Rerolls + 100 Memoria Shards + 5,000 Gems (requires Level 30; single-source — test in game)",
     status: "active",
     addedDate: ""
   }
 ];
 
 export const EXPIRED_CODES: CodeItem[] = [
-  {
-    code: "BETA_TEST_2025",
-    rewards: "300 Gems",
-    status: "expired",
-    addedDate: ""
-  }
+  { code: "1DayL8", rewards: "Expired — reward not documented by the publisher", status: "expired", addedDate: "" },
+  { code: "HeavyEyes", rewards: "Expired — reward not documented by the publisher", status: "expired", addedDate: "" },
+  { code: "ExecutionPart2", rewards: "Expired — reward not documented by the publisher", status: "expired", addedDate: "" },
+  { code: "WhoopsieDaisy", rewards: "Expired — reward not documented by the publisher", status: "expired", addedDate: "" },
+  { code: "LateBP", rewards: "Expired — reward not documented by the publisher", status: "expired", addedDate: "" },
+  { code: "PowerOfLove", rewards: "Expired — reward not documented by the publisher", status: "expired", addedDate: "" },
+  { code: "EEPart1", rewards: "Expired — reward not documented by the publisher", status: "expired", addedDate: "" },
+  { code: "BPSoon", rewards: "Expired — reward not documented by the publisher", status: "expired", addedDate: "" },
+  { code: "LagGone", rewards: "Expired — reward not documented by the publisher", status: "expired", addedDate: "" },
+  { code: "13.5", rewards: "Expired — reward not documented by the publisher", status: "expired", addedDate: "" }
 ];
 
 export const TRAITS: TraitData[] = [
