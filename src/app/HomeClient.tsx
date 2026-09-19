@@ -35,7 +35,7 @@ export default function HomeClient() {
     },
     {
       title: "2026 Meta Unit Tier List",
-      desc: "Complete rankings from S+ Secret Units (Song Jinwu, Alucard, Igris) to S Tier Mythics and Money Farms.",
+      desc: "Complete rankings from S+ Secret Units (Song Jinwu, Alucard, Igros) to S Tier Mythics and Money Farms.",
       href: "/tier-list",
       icon: Trophy,
       color: "from-indigo-600 to-purple-600",

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'Anime Vanguards trait reroll simulator',
     'Anime Vanguards evolution recipes',
     'Song Jinwu Monarch',
-    'Igris Secret Unit'
+    'Igros Secret Unit'
   ],
   authors: [{ name: 'Roblox Wiki Hub' }],
   metadataBase: new URL('https://animevanguards.robloxwikihub.com'),

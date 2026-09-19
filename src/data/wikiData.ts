@@ -185,8 +185,8 @@ export const UNITS: UnitData[] = [
     metaNotes: "Undisputed #1 Secret unit for Infinite Mode and Boss Raids."
   },
   {
-    id: "igris",
-    name: "Igris (Red Knight)",
+    id: "igros",
+    name: "Igros (Red Knight)",
     rarity: "Secret",
     element: "Blood",
     baseDamage: 9800,
@@ -196,11 +196,11 @@ export const UNITS: UnitData[] = [
     placementCost: 1200,
     maxUpgrades: 10,
     totalUpgradeCost: 36000,
-    evolvedFormName: "Igris Unleashed",
+    evolvedFormName: "Igros Unleashed",
     isEvolvedAvailable: true,
     evolutionDpsBoostPercent: 40,
     description: "Blistering single-target and cone cleave DPS with stacking Bleed status.",
-    metaNotes: "Pairs insanely well with Song Jinwu shadow commander aura."
+    metaNotes: "Pairs insanely well with Song Jinwu shadow commander aura. Note: the official spelling is Igros (not Igris)."
   },
   {
     id: "alucard",
@@ -294,7 +294,7 @@ export const TIER_LIST: TierItem[] = [
     statsSummary: "DPS: 16,000+ | SPA: 5.0s | Range: 40m"
   },
   {
-    name: "Igris (Red Knight)",
+    name: "Igros (Red Knight)",
     rarity: "Secret",
     tier: "S+",
     role: "Bleed Cleave / Commander",
