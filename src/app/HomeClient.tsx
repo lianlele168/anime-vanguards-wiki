@@ -58,7 +58,7 @@ export default function HomeClient() {
       badge: "STRATEGY"
     },
     {
-      title: "Verified Active Redeem Codes",
+      title: "Active Redeem Codes",
       desc: "100% working Roblox Anime Vanguards free Gems, Trait Rerolls, and Super Lucky Potions.",
       href: "/codes",
       icon: Key,
