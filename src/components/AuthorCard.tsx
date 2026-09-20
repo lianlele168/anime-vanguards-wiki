@@ -13,7 +13,7 @@ export default function AuthorCard({
   authorName = 'Hlele',
   role = 'Editor',
   experience = 'AI-assisted research, human-reviewed',
-  patchVersion = 'Update 3.5 Autumn Patch Verified',
+  patchVersion = 'Update 3.5 Autumn Patch',
   lastUpdated = '',
   editorialNote = 'All data is cross-verified from multiple sources; unverified values are explicitly labeled.',
 }: AuthorCardProps) {
@@ -28,7 +28,7 @@ export default function AuthorCard({
             <div className="flex items-center space-x-2">
               <span className="font-bold text-white text-sm sm:text-base">{authorName}</span>
               <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-semibold bg-red-500/10 text-red-400 border border-red-500/20 font-mono">
-                ✓ Expert Verified
+                Independent editorial
               </span>
             </div>
             <p className="text-xs text-gray-400 mt-0.5">
