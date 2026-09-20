@@ -25,7 +25,7 @@ export default function CodesClient() {
           Roblox Anime Vanguards Codes 
         </h1>
         <p className="text-gray-400 text-sm mt-1">
-          Claim free Gems, Trait Rerolls, Super Lucky Potions, and Stat Chips. Tested daily by our community team.
+          Claim free Gems, Trait Rerolls, Super Lucky Potions, and Stat Chips. Cross-checked against official channels and community reports.
         </p>
       </div>
 
